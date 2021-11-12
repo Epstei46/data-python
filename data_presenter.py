@@ -23,25 +23,43 @@ print(round(total_strawberry, 2))
 cupcake_invoices.close()    # STEP 7
 
 # Going Further
-
-## Note: This will need to be run in Replit.com for visualization.
+# Note: This will need to be run in Replit.com for visualization. matplotlib is a popular library, external python data tool for data visualization.
+import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt 
+
+# If I had amounts purchased each day, I could have each day on my X axis and split by donut type
+# s = "Type 1|Type 2".split("|")
+
+# https://stackoverflow.com/questions/53182452/python-create-bar-chart-comparing-2-sets-of-data
+# https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html
+
+# j = {x: []}
     
-# x axis values 
-x = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"] 
-# corresponding y axis values 
-y = [10,40,32,84,60,52,18] 
+
+
+
+
+
+
+# CODE BELOW IS TO GENERATE A LINE PLOT IN PYTHON
+# import matplotlib.pyplot as plt 
     
-# plotting the points  
-plt.plot(x, y) 
+# # x axis values 
+# x = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"] 
+# # corresponding y axis values 
+# y = [10,40,32,84,60,52,18] 
     
-# naming the x axis 
-plt.xlabel('Day Purchased') 
-# naming the y axis 
-plt.ylabel('Cupcakes Purchased') 
+# # plotting the points  
+# plt.plot(x, y) 
     
-# giving a title to my graph 
-plt.title('My Cupcake Sales') 
+# # naming the x axis 
+# plt.xlabel('Day Purchased') 
+# # naming the y axis 
+# plt.ylabel('Cupcakes Purchased') 
     
-# function to show the plot 
-plt.show() 
+# # giving a title to my graph 
+# plt.title('My Cupcake Sales') 
+    
+# # function to show the plot 
+# plt.show() 
